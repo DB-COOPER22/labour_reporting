@@ -18,7 +18,7 @@ BASE_DIR = Path("data")
 BASE_DIR.mkdir(exist_ok=True)
 
 TIMEZONE = "Australia/Sydney"
-COUNTER_START = 300  # per day counter starts at 300
+COUNTER_START = 600  # per day counter starts at 300
 
 def load_employees() -> pd.DataFrame:
     if not EMPLOYEE_FILE.exists():
